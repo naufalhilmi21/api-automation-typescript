@@ -1,5 +1,4 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
-import 'dotenv/config'
 import {
   Methods,
   RequestParams,

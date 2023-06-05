@@ -9,5 +9,5 @@ export type ProcessOrders = {
 }
 
 export async function processOrder( payload?: ProcessOrders ) {
-  return await makeRequest('POST', '/processOrder', { data: payload });
+  return await makeRequest('POST', 'processOrder', { data: payload });
 }

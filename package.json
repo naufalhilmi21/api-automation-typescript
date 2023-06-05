@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "test": "jest",
+  "scripts": {
+    "test": "jest --setupFiles dotenv/config"
+  },
   "devDependencies": {
     "@jest/globals": "^29.5.0",
     "@types/jest": "^29.5.2",
