@@ -1,5 +1,4 @@
-import { ProcessOrders } from 'endpoints/orders';
-import { createUsers } from '../endpoints'
+import { ProcessOrders, processOrder } from '../endpoints';
 
 describe('Process orders', () => {
   let response: any;
@@ -12,7 +11,7 @@ describe('Process orders', () => {
       special_order: false
     }
 
-    response = await createUsers(data);
+    response = await processOrder(data);
     expect(response.status).toBe(201)
     expect(response.data).toEqual(data)
   });

@@ -1,2 +1,2 @@
 export { getUsers, createUsers } from './users'
-export { processOrder } from './orders'
+export { processOrder, ProcessOrders } from './orders'
