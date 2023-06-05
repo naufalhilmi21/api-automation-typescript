@@ -19,7 +19,7 @@ describe('Get Users', () => {
 
 describe('Create Users', () => {
   let response: any;
-  test('get user page 1', async () => {
+  test('create a user', async () => {
     const data = {
       name: 'morpheus',
       job: 'leader'

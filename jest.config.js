@@ -10,4 +10,5 @@ module.exports = {
      */
     "@core": "<rootDir>/src/@core"
   },
+  setupFiles: ["dotenv/config"],
 };
