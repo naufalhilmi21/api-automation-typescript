@@ -2,7 +2,9 @@
 
 ## Prequisites
 
-- NodeJS
+- [NodeJS](https://nodejs.org/en/download)
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)
+
 
 ## Installation
 
